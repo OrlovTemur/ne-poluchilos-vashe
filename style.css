@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+}
+
+body {
+    padding-bottom: 134px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 1008px;
+}
+
+.top h1 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 70px;
+}
+
+.top p {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.center {
+    margin-top: 63px;
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: start;
+}
+
+.text-1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.text-2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 113, 227, 1);
+}
+
+.text-3 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 48px;
+}
+
+button {
+    border: none;
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+.choise-color {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-1{
+    background-color: #0071E3;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn-2 {
+    background-color: #CFE7FF;
+    color: #797979;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bot {
+    width: 321px;
+    margin-top: 59px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.item b {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.item p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.razmer {
+    margin-top: 31px;
+}
+
+.img-1 {
+    background-image: url(./images/mbp14-silver-select-202110\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 290px;
+    transition: .5s ease;
+}
+
+.img-2 {
+    background-image: url(./images/mbp14-spacegray-select-202110\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 290px;
+    transition: .5s ease;
+}
